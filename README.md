@@ -453,7 +453,7 @@ Detailed technical references and examples are from community-sourced writeups a
 12. Pass The Hash Attack | Netwrix - https://www.netwrix.com/pass_the_hash_attack_explained.html
 13. sharpup | WADComs - https://wadcoms.github.io/wadcoms/SharpUp/
 14. GitHub - GhostPack/Seatbelt: Seatbelt is a C# project that performs a number of security oriented host-survey "safety checks" relevant from both offensive and defensive security perspectives. - https://github.com/GhostPack/Seatbelt
-
+15. [Priv-Esc](https://github.com/Abr-ahamis/Priv-Esc/edit/main/README.md)
 
 
 
