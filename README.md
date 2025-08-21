@@ -15,8 +15,8 @@ Local privilege escalation means going from a non-admin user to Administrator (o
 ```
 reg query HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer /v AlwaysInstallElevated
 reg query HKCU\\SOFTWARE\\Policies\\Microsoft\\Windows\\Installer /v AlwaysInstallElevated
-
 ```
+
 
 If both HKLM and HKCU keys are DWORD 1, any user can run an MSI as SYSTEM. Exploit: create a malicious MSI (e.g. via `msfvenom -f msi` or `msiwrapper`) and run `msiexec /quiet /i payload.msi`. This spawns SYSTEM. AlwaysInstallElevated is rare by default, but misconfigured GPOs can enable it.
 
